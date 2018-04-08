@@ -23,11 +23,12 @@ function increaseRankBy(n) {
 
 function deepestChild() {
   
-  var nodeList = '#grand-node'
+  var nodeList = '#grand-node';
 
   while (document.querySelector(nodeList).children[0]) {
-    nodeList = nodeList + ' div'
+    nodeList = nodeList + ' div''
   }
   
   return document.querySelector(nodeList);
   
+}
