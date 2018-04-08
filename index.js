@@ -12,5 +12,5 @@ function nestedTarget() {
 
 function increaseRankBy(n) {
   
-  var list = docu
+  var nodeList = document.querySelectorAll();
 }
