@@ -9,15 +9,15 @@ function nestedTarget() {
 	return document.querySelector('#nested .target');
 	
 }
+
 function deepestChild() {
   
-  var nodeList = document.querySelector('#grand-node');
-  while (nodeList.children[0]) {
-    
-    console.log(nodeList);
-    nodelist = nodeList.children[0];
+  var nodeList = '#grand-node'
+
+  while (document.querySelector(nodeList).children) {
+    nodeList = nodeList + ' div'
   }
   
-  return nodeList;
+  return document.querySelector(nodeList);
   
 }
