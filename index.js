@@ -19,3 +19,17 @@ function increaseRankBy(n) {
   }
   
 }
+
+
+function deepestChild() {
+  
+  var nodeList = '#grand-node';
+
+  while (document.querySelector(nodeList).children) {
+    nodeList = nodeList + ' div';
+  }
+  
+  return document.querySelector(nodeList);
+  
+}
+
